@@ -1,6 +1,12 @@
+
+<img width="1365" height="756" alt="NVIDIA_Overlay_QnIk8O8hWj" src="https://github.com/user-attachments/assets/937c2a4d-9d7d-4deb-b91a-23edadbd8183" />
+
+
+
+
 # How to Modify the ASCII Art and Run Gemini CLI Locally
 
-> This guide teaches you how to change the ASCII art displayed in the terminal and how to run/test the `gemini` command using your local version of the project.
+ This guide teaches you how to change the ASCII art displayed in the terminal and how to run/test the `gemini` command using your local version of the project.
 
 ---
 
