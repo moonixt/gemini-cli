@@ -43,7 +43,7 @@ export async function checkForUpdates(): Promise<UpdateObject | null> {
     // Skip update check when running from source (development mode)
     if (process.env['DEV'] === 'true') {
       return null;
-    }
+    } 
     const packageJson = await getPackageJson();
     if (!packageJson || !packageJson.name || !packageJson.version) {
       return null;
@@ -84,7 +84,8 @@ export async function checkForUpdates(): Promise<UpdateObject | null> {
       const updateInfo = await createNotifier('latest').fetchInfo();
 
       if (updateInfo && semver.gt(updateInfo.latest, currentVersion)) {
-        const message = `Gemini CLI update available! ${currentVersion} → ${updateInfo.latest}`;
+        const message = `Gemini CLI update available! 
+        ${currentVersion} → ${updateInfo.latest}`;
         return {
           message,
           update: { ...updateInfo, current: currentVersion },
